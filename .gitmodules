@@ -1,0 +1,3 @@
+[submodule "sushitrain-fork"]
+	path = sushitrain-fork
+	url = https://github.com/pixelspark/sushitrain.git
