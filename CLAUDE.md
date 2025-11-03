@@ -74,6 +74,27 @@ git fetch upstream
 - `refactor:` for code improvements
 - `docs:` for documentation
 
+### Apple Developer Configuration
+
+**App Identity**:
+- App ID: `com.flyagile.notevaultsync`
+- App Name: NoteVaultSync
+- Developer Account: yhom@mac.com
+- Bundle ID Prefix: com.flyagile
+
+**Required Capabilities**:
+- App Groups: `group.com.flyagile.notevaultsync`
+- Push Notifications (APNs)
+- File Provider Extension
+- Background Modes (remote-notification, processing)
+
+**APNs Setup** (requires active Developer Program membership):
+- Authentication Key (.p8 file)
+- Key ID and Team ID for server configuration
+- Production + Development certificates
+
+**Note**: Developer Program membership ($99/year) required for APNs push notifications (Phase 1 Week 2+).
+
 ## Development Principles
 
 ### iOS-Specific Standards
